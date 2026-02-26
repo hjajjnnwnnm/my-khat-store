@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html lang="ar" dir="rtl">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>متجر محمد المغلس</title>
+    <style>
+        body, html {
+            margin: 0; padding: 0; height: 100%;
+            font-family: sans-serif;
+        }
+
+        /* هذا الجزء هو المسؤول عن إظهار الصورة */
+        .hero {
+            background-image: linear-gradient(rgba(0,0,0,0.5), rgba(0,0,0,0.5)), 
+                              url('IMG-20251230-WA00.jpg'); /* تأكد أن الاسم مطابق تماماً */
+            background-size: cover;
+            background-position: center;
+            height: 100vh;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            color: white;
+            text-align: center;
+        }
+
+        .list { padding: 40px; text-align: center; background: #eee; }
+        .item { background: white; margin: 10px auto; padding: 15px; max-width: 300px; border-radius: 8px; font-weight: bold; color: #2d5a27; }
+        .btn { display: inline-block; background: #25D366; color: white; padding: 15px 30px; text-decoration: none; border-radius: 50px; margin-top: 20px; font-weight: bold; }
+    </style>
+</head>
+<body>
+
+    <div class="hero">
+        <h1>أهلاً بكم في متجر محمد المغلس</h1>
+        <p>لأجود أنواع القات القدسي والماوي والترحبي</p>
+    </div>
+
+    <div class="list">
+        <h2>يتوفر لدينا:</h2>
+        <div class="item">1. قات قدسي</div>
+        <div class="item">2. قات ماوية</div>
+        <div class="item">3. قات ترحبي</div>
+        
+        <a href="https://wa.me/967730841142" class="btn">طلب عبر الواتساب</a>
+    </div>
+
+</body>
+</html>
